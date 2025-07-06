@@ -7,7 +7,7 @@
 #include <sys/times.h>
 #include <sys/utsname.h>
 
-int sc-linux() 
+int sc_linux() 
 {
 	return -91;
 }
