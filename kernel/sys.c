@@ -7,6 +7,11 @@
 #include <sys/times.h>
 #include <sys/utsname.h>
 
+int sc-linux() 
+{
+	return -91;
+}
+
 int sys_ftime()
 {
 	return -ENOSYS;
