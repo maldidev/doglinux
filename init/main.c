@@ -87,6 +87,7 @@ void main(void)		/* This really IS void, no error here. */
 	out("* initializing hd\n");
 	hd_init();
 	sti();
+	out("moving to usermode");
 	move_to_user_mode();
 	if (!fork()) {		/* we count on this going ok */
 		init();

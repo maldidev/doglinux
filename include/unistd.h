@@ -1,7 +1,7 @@
 #ifndef _UNISTD_H
 #define _UNISTD_H
 /* i think its joke but no sorry */
-#define _INIT_UNISTD_H
+#define _INIT_UNISTD_H 0x1 
 /* ok, this may be a joke, but I'm working on it */
 #define _POSIX_VERSION 198808L
 
