@@ -1,4 +1,3 @@
-#include <stdio.h>
 int PYSYS = 91;
 int SCAA_DEF()          
 {
