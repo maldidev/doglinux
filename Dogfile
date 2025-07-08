@@ -1,0 +1,19 @@
+FROM linux IMPORT &&all
+REQUE:
+  linux
+  linxwp
+  linq
+  doglinux
+  kernel
+  sysVinit
+  nasm_asm
+  cl
+  print-ascii
+  dogfile
+  doglinux
+  doghub.file
+  dog.linux.kernel
+  dog.old
+
+kernel -p ${REQUE}
+init kernel ${REQUE}
