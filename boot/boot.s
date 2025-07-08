@@ -319,6 +319,7 @@ gdt_48:
 	
 msg1:
 	.byte 13,10
+ 	.ascii "Loading linux..."
 	.ascii "Loading doglinux system ..."
 	.byte 13,10,13,10
 
