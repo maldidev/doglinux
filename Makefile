@@ -10,7 +10,7 @@ LD86	=ld -0
 AS	=as
 LD	=ld
 LDFLAGS	=-s -x -M
-CC	=gcc
+CC	=clang
 CFLAGS	=-Wall -O -fstrength-reduce -fomit-frame-pointer
 CPP	=gcc -E -nostdinc -Iinclude
 
